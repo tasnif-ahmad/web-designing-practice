@@ -1,0 +1,10 @@
+#box {
+    width: 120px;
+    height: 120px;
+    background: rgb(0, 141, 197);
+    margin-top: 20px;
+}
+
+button {
+    margin-right: 10px;
+}

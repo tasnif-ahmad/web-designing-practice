@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery noConflict Method Example</title>
+
+
+    <script>
+
+        function $(id) {
+            return document.getElementById(id);
+        }
+    </script>
+
+    <!-- jQuery CDN -->
+    <script src="jquery-3.7.1.min.js"></script>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="title">This will change when you press the Button</h1>
+    <!-- Button to change text -->
+    <button id="changeBtn">Change Text</button>
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

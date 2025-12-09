@@ -1,0 +1,15 @@
+.box {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fcbbbb;
+    border: 1px solid #000;
+    width: 250px
+   ;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #106a6a;
+    color: rgb(255, 255, 255);
+}
